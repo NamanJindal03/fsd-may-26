@@ -43,3 +43,24 @@ original -> fork -> then clone the forked repo ->
     raise the pr 
     
     then the original creator has the option to review and if he/she finds it meaningful then merge your changes
+    
+    Ye saare git init
+git clone
+git status
+git add .
+git commit -m "message"
+git push origin main
+git pull origin main
+git fetch
+git branch
+git checkout -b feature
+git checkout <branch_name>
+git merge feature
+git log
+git stash
+git stash pop
+git stash list
+git reset --soft HEAD~1
+git reset --hard HEAD
+git revert HEAD
+git remote -v
