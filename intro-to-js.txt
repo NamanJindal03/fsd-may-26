@@ -12,3 +12,14 @@ Introduction to JavaScript & Basics
 
 == output is true -> != output will be ? false
 === output is true => !== output will be false
+
+
+
+Next lecture 
+1. We need to start from typecasting -> 
+
+
+
+git -> work -> 
+    in that -> 
+        if the folder is empty that is not considered to go in the
