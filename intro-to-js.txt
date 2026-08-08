@@ -23,3 +23,14 @@ Next lecture
 git -> work -> 
     in that -> 
         if the folder is empty that is not considered to go in the
+
+
+Continue work from session 20 slide 20
+
+
+
+Continue from -> 
+    1. Js internals and elaborate over the concept of hoisting -> 
+    2. Questions -> hoisting, scope -> 
+
+    3. Objects -> basics 

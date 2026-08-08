@@ -8,6 +8,7 @@
 8. gitignore 
 9. readme.md
 10. Deep discussion about == and ===
+11. complex forms of arrow functions
 
 
 Homework -> 

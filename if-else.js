@@ -135,12 +135,12 @@ const electionType = 'countr' //other possible values -> 'country' 'district' 's
 //         break;
 // }
 
-// let number = 5
-// while(number < 10){
-//     console.log(number);
-//     number++;
-// }
-// console.log('program ended')
+let number = 5
+while(number < 10){
+    console.log(number);
+    number++;
+}
+console.log('program ended')
 
 // for(let someNumber = 5; someNumber < 10; ++someNumber ){
 //     console.log(someNumber);
@@ -164,6 +164,7 @@ const electionType = 'countr' //other possible values -> 'country' 'district' 's
 // 1
 
 const breakPoint = 50 //making the program robust and easy to alter
+
 for(let i=1; i<=breakPoint; i++){
     let stringToBePrinted = "";
     for(let timesToBePrinted = 0 ; timesToBePrinted <i; timesToBePrinted++){
@@ -180,3 +181,5 @@ for(let i=breakPoint-1; i>0; i--){
     console.log(stringToBePrinted)
 
 }
+
+
