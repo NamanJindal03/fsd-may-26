@@ -105,7 +105,20 @@ const numberArr = [10,22,53,14,15, 78, 56, 45, 38, 90, 12, 23, 56, 78];
 // const stringBASeed = numberArr.toString(); //not used that much
 // console.log(stringBASeed)
 
-str="vishal kumar hello" 
+// str="vishal kumar hello" 
 
-const strArr = str.split(" ");
-console.log(strArr)
+// const strArr = str.split(" ");
+// console.log(strArr)
+
+// const fruitArr = ['kiwi', 'apple', 'banana', 'orange'];
+
+
+// for( fruit of fruitArr){
+//     console.log(fruit);
+// }
+
+// //objects 
+// for( fruit in fruitArr){
+
+// }
+

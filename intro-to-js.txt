@@ -37,6 +37,19 @@ Continue work from session 20 slide 20
 
 
 Missed things -> 
-    1. for of loop ->
+    1. for of loop -> done
     2. Session 21 complete missing -> 
+
+
+
+     callbacks expalin in depth
+     recursion
+    3. Destructuring
+    4. Reference understanding in objects and array
+    5. bind , apply
     3. Session 23 -> will be covered -> 
+    
+
+    Array Methods 2 -> 
+    Objects Deep Dive -> 
+    
