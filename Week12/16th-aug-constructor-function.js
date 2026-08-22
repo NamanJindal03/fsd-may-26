@@ -85,21 +85,21 @@
 
 
 
-// function Employee(id, name, yoe){
-//     console.log(this)
-//     this.employeeId = id;
-//     this.name = name;
-//     this.yoe = yoe
-//     // this.employAndName = function(){
-//     //     this.employeeId + this.name
-//     // }
-//     // return {name: 'njnjnjnjnjn'}; //it overwrites with the value of "this"
-// }
+function Employee(id, name, yoe){
+    console.log(this)
+    this.employeeId = id;
+    this.name = name;
+    this.yoe = yoe
+    // this.employAndName = function(){
+    //     this.employeeId + this.name
+    // }
+    // return {name: 'njnjnjnjnjn'}; //it overwrites with the value of "this"
+}
 
 // Employee.prototype.employeeAndName = function(){
 //     return this.employeeId + this.name
 // }
-// const emp1 = new Employee(1, 'naman', 2)
-// const emp2 = new Employee(2, 'Vishal', 5)
+const emp1 = new Employee(1, 'naman', 2)
+const emp2 = new Employee(2, 'Vishal', 5)
 // console.log(emp1)
 // console.log(emp2)

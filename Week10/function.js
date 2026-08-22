@@ -151,6 +151,11 @@ if(answrer || answrer2 || answrer3 || answrer4){
 //     return a+b + count
 // }
 
+// function sum(arr){
+//     return arr[0] + arr[1]
+// }
+// sum([10,20])
+
 // const answer = sum(4,4);
 // const answer2 = sum(4,4);
 // const answer3 = sum(4,4);

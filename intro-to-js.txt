@@ -41,15 +41,25 @@ Missed things ->
     2. Session 21 complete missing -> 
 
 
-
-     callbacks expalin in depth
-     recursion
+    Reference understanding in objects and array 
     3. Destructuring
-    4. Reference understanding in objects and array
-    5. bind , apply
-    3. Session 23 -> will be covered -> 
     
+     recursion
+    4. 
+    
+    Done till here
 
+    3. Session 23 -> will be covered -> 
+
+
+
+    callbacks expalin in depth
     Array Methods 2 -> 
+
+    elaborate the term polyfill
+    Deep copy -> nested arrays -> shallow copy
+    sorting
+
     Objects Deep Dive -> 
+    5. bind , apply
     
