@@ -56,6 +56,7 @@ Missed things ->
     callbacks expalin in depth
     Array Methods 2 -> 
 
+    cover few more array methods -> 25 minutes -> 
     elaborate the term polyfill
     Deep copy -> nested arrays -> shallow copy
     sorting

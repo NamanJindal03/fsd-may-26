@@ -3,12 +3,13 @@
 3. Iframe 
 4. Indepth about metatags
 5. Forms few more attributes (study during JS forms)
-6. CSS units
 7. not or or in media queries
 8. gitignore 
 9. readme.md
 10. Deep discussion about == and ===
 11. complex forms of arrow functions
+12. More questions on this keyword
+13. reduceRight
 
 
 Homework -> 
