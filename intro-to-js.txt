@@ -58,9 +58,45 @@ Missed things ->
 
     cover few more array methods -> 25 minutes -> 
     elaborate the term polyfill
-    Deep copy -> nested arrays -> shallow copy
     sorting
+    Deep copy -> nested arrays -> shallow copy
 
+
+
+
+
+/********************************************************************************************************************
+    DOM -> 
+
+    study why?
+        1. To make our webpage dynamic 
+            What does the term dynamic mean here??? 
+
+
+
+    getElementById 
+    getElementByClassName
+    getElementByTagName
+        it returns you a HTMLCollection 
+
+    HTMLCollection is not exactly an array, infact you cannot even
+    use all of your methods of array, it only supports a few. 
+
+    You have a method available to convert HTMLCollectin to array
+
+
+    You have 5 divs, each of them having the same class. 
+        The value of all divs will have sequential numbers, but one of the div
+        is having a id=last which will take the value of 200 (this is random), 
+        you don't know. 
+
+
+    Existing element how to modify -> 
+
+    but we also have the facility to create the html elements from scratch
+
+
+    Static NODE list exists when?????? actionable on naman
     Objects Deep Dive -> 
     5. bind , apply
     

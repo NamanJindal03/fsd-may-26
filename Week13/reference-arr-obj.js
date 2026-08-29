@@ -96,3 +96,87 @@
 
 // const sum = add(a)
 // console.log(sum)
+
+
+
+const a = [1,2,3,4,5];
+const b = a;
+
+a.push(100);
+console.log(a); //output??
+console.log(b); //output??
+
+const c = [...a];
+a.push(100);
+console.log(a); //output??
+console.log(c); //output??
+
+const aNested = [1,2,3,4, [1,2,3,4]];
+// const bNested = [...aNested];
+const bNested = aNested.slice(0);
+
+// aNested[4][2] = 300;
+// console.log(aNested);
+// console.log(bNested);
+
+// JSON.parse(JSON.stringify(aNested))
+
+const deepCopiedANested = structuredClone(aNested);
+aNested[4][2] = 300;
+console.log(aNested)
+console.log(deepCopiedANested)
+
+
+
+
+//2d array -> 
+// const study= [   
+//     1,
+//     2,
+//     3,
+//     4, 
+//     [1,2,30,4]
+// ]
+// console.log(study[4][2])
+// const subArray = study[4];
+// console.log(subArray[2])
+
+//write a code 
+/*
+    such that you print 
+    Apple -> 10
+    Banana -> 20
+    Mango -> 30
+
+    Orange -> 15
+    Grapes -> 25
+
+    Watermelon -> 50
+    Papaya -> 35
+    Guava -> 40
+*
+
+]; */
+
+// const fruits = [
+//   [
+//     ["Apple", 10],
+//     ["Banana", 20],
+//     ["Mango", 30]
+//   ],
+//   [
+//     ["Orange", 15],
+//     ["Grapes", 25]
+//   ],
+//   [
+//     ["Watermelon", 50],
+//     ["Papaya", 35],
+//     ["Guava", 40]
+//   ]]
+
+// for (let group of fruits) {
+//     for (let fruit of group) {
+//         console.log(fruit[0] + " -> " + fruit[1]);
+//     }
+//     console.log("");
+// }
