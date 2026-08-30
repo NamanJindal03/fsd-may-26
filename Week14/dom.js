@@ -75,43 +75,155 @@
 // console.log(meClassElements[0].getAttribute(''))
 
 
-const customH1 = document.createElement('h1');
-customH1.textContent = 'I am a custom made h1';
-customH1.setAttribute('id', 'heading1')
-customH1.classList.add(...['naman', 'randomC'])
+// const customH1 = document.createElement('h1');
+// customH1.textContent = 'I am a custom made h1';
+// customH1.setAttribute('id', 'heading1')
+// customH1.classList.add(...['naman', 'randomC'])
 // customH1.style.backgroundColor = 'red'
-console.log(customH1)
+// console.log(customH1)
 
 
-const customp = document.createElement('p');
-customp.textContent = 'something'
-console.log(customp)
+// const customp = document.createElement('p');
+// customp.textContent = 'something'
+// console.log(customp)
 
-customH1.classList.remove('naman');
-console.log(customH1)
+// customH1.classList.remove('naman');
+// console.log(customH1)
 
 
-const bodyElem = document.body;
-bodyElem.append(customH1, customp)
+// const bodyElem = document.body;
+// bodyElem.append(customH1, customp)
 // bodyElem.appendChild(customH1);
 // bodyElem.appendChild(customp)
 
-const nalayakDiv = document.querySelector('#nalayak');
-console.log(nalayakDiv)
-bodyElem.removeChild(nalayakDiv)
+// const nalayakDiv = document.querySelector('#nalayak');
+// console.log(nalayakDiv)
+// bodyElem.removeChild(nalayakDiv)
 
 
 
 
+const buttonElement = document.querySelector('.notification-btn');
+const trackUserInputBox = document.querySelector('.track-user');
+
+buttonElement.addEventListener('click', () => {
+    alert('Wake up')
+})
+
+// trackUserInputBox.addEventListener('keyup', (e)=>{
+//     console.log(e.key)
+//     console.log(e.target.value)
+//     // console.log('key pressed')
+// })
+
+// trackUserInputBox.addEventListener('keyup', ()=>{
+//     console.log('up and up only')
+// })
+
+function testFunc(e){
+    // console.log(first)
+    e.preventDefault();
+}
+
+const keyBindingMapping = {
+    'j': 'd',
+    'd': 'j',
+    'm': 'n',
+    'n': 'm',
+    'J': 'D',
+    'u': 'e'
+}
+
+function replaceKeyValue(newKey, e){
+    e.preventDefault();
+    e.target.value += newKey
+}
+
+
+trackUserInputBox.addEventListener('keydown', (e) => {
+
+    if(keyBindingMapping[e.key]){
+        console.log(e.key)
+        replaceKeyValue(keyBindingMapping[e.key], e)
+    }
+    // console.log(e.key)
+    // replaceKeyBinding('')
+    // if( e.key === 'j'){
+    //     e.preventDefault();
+    //     e.target.value += 'd'
+    // }
+    // else if(e.key === 'J'){
+    //     e.preventDefault();
+    //     e.target.value = e.target.value + 'D'
+    // }
+    // else if(e.key === 'd'){
+    //     e.preventDefault();
+    //     e.target.value = e.target.value + 'j'
+    // }
+    // else if(e.key === 'D'){
+    //     e.preventDefault();
+    //     e.target.value = e.target.value + 'J'
+    // }
+})
+
+
+const parentDivElem = document.querySelector("#parent-div")
+const paraParaElem = document.querySelector("#para-para")
+const njSpanElem = document.querySelector("#nj-span")
+
+// njSpanElem.addEventListener('click', (e)=>{
+//     // e.stopImmediatePropagation()
+
+//     e.stopPropagation()
+//     console.log('nj span clicked')
+// })
+// paraParaElem.addEventListener('click', (e)=>{
+//     // e.stopImmediatePropagation()
+//     console.log('paraParaElem clicked')
+// })
+parentDivElem.addEventListener('click', (e)=>{
+
+    console.log(e)
+    console.log('parentDivElem clicked')
+})
 
 
 
+const form = document.querySelector("form");
+form.addEventListener("submit", function(e) {
+    e.preventDefault();
+    console.log('trying')
+    const nameInput = document.querySelector("#name");
+    const nameErrorAlertElem = document.querySelector('#name-error-alert')
+    console.log(nameErrorAlertElem)
+    const nameValue = nameInput.value;
+    console.log(e)
+    if (nameValue.trim() === "") {
+        nameErrorAlertElem.textContent = "Name is required.";
+        nameErrorAlertElem.style.visibility = 'visible';
+        // const errorMessage = document.createElement("p");
+        // errorMessage.textContent = "Name is required.";
+        // form.appendChild(errorMessage);
+        // return;
+    }
+    else if (nameValue.length <= 5 || nameValue.length >= 7) {
+        nameErrorAlertElem.textContent = "Name must be between 5 and 7 characters long.";
+        nameErrorAlertElem.style.visibility = 'visible';
+        // const errorMessage = document.createElement("p");
+        // errorMessage.textContent = "";
+        // form.appendChild(errorMessage);
+        return;
+    }
+    // console.log("Form submitted with name:", nameValue);
+});
 
+const UlElement = document.querySelector('#tempUL');
 
-
-
-
-
+UlElement.addEventListener('click', (e)=>{
+    console.log(e.target)
+   const elementToBeRemoved = e.target;
+   UlElement.removeChild(elementToBeRemoved)
+})
 
 
 

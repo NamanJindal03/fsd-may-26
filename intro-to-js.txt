@@ -100,3 +100,37 @@ Missed things ->
     Objects Deep Dive -> 
     5. bind , apply
     
+
+
+
+n
+dom.js:115 
+dom.js:114 a
+dom.js:115 n
+dom.js:114 m
+dom.js:115 na
+dom.js:114 a
+dom.js:115 nam
+dom.js:114 n
+dom.js:115 nama
+
+
+
+n
+dom.js:115 n
+dom.js:114 a
+dom.js:115 na
+dom.js:114 m
+dom.js:115 nama
+dom.js:114 a
+dom.js:115 nama
+dom.js:114 n
+dom.js:115 naman
+
+1. Achievign a fully responsinve navbar 
+2. Intersection Observer API -> very difficult -> 
+    padhna 
+
+3. pickup a random website and try to implement all the 
+functionalities which are frotnend driven 
+4. Star rating problem -> 
