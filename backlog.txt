@@ -10,6 +10,7 @@
 11. complex forms of arrow functions
 12. More questions on this keyword
 13. reduceRight
+14. Promise.all()
 
 
 Homework -> 

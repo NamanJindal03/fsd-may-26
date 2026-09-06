@@ -127,10 +127,54 @@ dom.js:115 nama
 dom.js:114 n
 dom.js:115 naman
 
-1. Achievign a fully responsinve navbar 
+
 2. Intersection Observer API -> very difficult -> 
     padhna 
+3. We did a mini project find things you can do with JS in that and impleement
+    3a. 1. Achievign a fully responsinve navbar 
+4. Try to think of features - there might be certain features which cannot be
+done using dom as they might be depenedent on backend. 
+    We will discuss either an alternativve or I conclude could they have been 
+    done with DOM or backend was absolutely necesarry
+
+
 
 3. pickup a random website and try to implement all the 
 functionalities which are frotnend driven 
 4. Star rating problem -> 
+
+
+Event delegation -> repeat -> 
+
+    form wala question ->>>>> 
+
+
+    Core characterestics of JS -> 
+        1. single threaded -> 
+
+    Settimeout executes once only once after the time period you specified
+
+    SetInterval -> keeps on running in interval
+
+    We need to provide the control to the external library and we need to depend on them to execute our 
+    code / function. 
+    And that is something which isnt favourable -> 
+    
+    Promises provided us something through which we could take the back the control. 
+
+
+
+
+
+
+
+    Backlog -> 
+        Promise.all()
+        talk more about async keyword
+        post api call in js 
+
+
+
+        Recursion ki story -> 
+        new keyword -> example prototype ->
+        
