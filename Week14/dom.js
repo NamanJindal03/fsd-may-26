@@ -247,3 +247,24 @@ UlElement.addEventListener('click', (e)=>{
 // }
 // const h1Node = new NodeConstructor('h1', attributes, 'I am supreme');
 // console.log(h1Node)
+
+
+// setTimeout(()=>{
+//     console.log('set timeout ')
+//     for(let i=0; i< 10000; i++){
+//         console.log('print', i)
+//     }
+// }, 5000)
+
+// setInterval(()=>{
+//     console.log('set interval ')
+// }, 1000)
+
+
+// buttonElement.addEventListener('onclick', ()=>{
+//     document.addEventListener('keydown', (e)=>{
+//         if(e.key === 'Enter'){
+//             console.log('do something ')
+//         }
+//     })
+// })

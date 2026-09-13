@@ -1,0 +1,9 @@
+why typescript?
+
+
+    typescript = js + adding types 
+
+
+we need a proper setup and installations to powerup typescript 
+
+Every ide out there supports and can validte typescript

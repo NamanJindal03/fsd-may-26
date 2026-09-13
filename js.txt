@@ -163,11 +163,6 @@ Event delegation -> repeat ->
     Promises provided us something through which we could take the back the control. 
 
 
-
-
-
-
-
     Backlog -> 
         Promise.all()
         talk more about async keyword
@@ -178,3 +173,30 @@ Event delegation -> repeat ->
         Recursion ki story -> 
         new keyword -> example prototype ->
         
+
+amazon prodcut feed -> 
+it gives me multiple product
+
+1. get all products  (backend return all products) -> GET www.nj.com/products
+2. get one product (backend returns one product) -> GET www.nj.com/product/SLUG-or-Unique-ID
+3. create a product -> POST www.nj.com/product
+4. update one product -> PUT ya PATCH www.nj.com/product/SLUG-or-Unique-ID
+5. delete a product -> DELETE www.nj.com/product/SLUG-or-Unique-ID
+6. delete all products -> DELETE www.nj.com/products/
+
+Advanced -> 
+    1. get products of only 1st page -> GET www.nj.com/products?page=1 
+    2. get products of second page with only 10 enteries -> GET www.nj.com/products?page=2&limit=10 
+
+https://www.amazon.in/Blissful-Handicraft-Sheshnaag-Multicolor-Unbreakable/
+
+
+1. Local storage 
+    a. they do not get removed unless and untill you remove through code or manually over the browser 
+2. Session storage 
+    a. they automatically get removed when you close a session. 
+3. Cookies - meri login session details -> 
+    a. They are a special storage which a backend can also set for us 
+    b. it is very small in size
+    c. every request that we originate from the browser, it has the capaibility to automatically get attached
+    to the request. 

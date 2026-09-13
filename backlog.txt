@@ -11,6 +11,7 @@
 12. More questions on this keyword
 13. reduceRight
 14. Promise.all()
+15. Put vs Patch
 
 
 Homework -> 

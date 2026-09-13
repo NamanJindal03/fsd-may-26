@@ -202,23 +202,23 @@
 // const apiData3 = fetch('https://jsonplaceholder.typicode.com/todos/1')
 
 
-const combinedData = Promise.all([fetch('https://jsonplaceholder.typicode.com/todos/1'), fetch('https://jsonplaceholder.typicode.com/todos/1')]);
-combinedData.then((data)=>{
-    // return fetch('inform-customer')
-    const promisesArray = data.map((product)=> product.json())
-    return Promise.all(promisesArray)
-})
-.then((data)=>{
-    console.log(data)
+// const combinedData = Promise.all([fetch('https://jsonplaceholder.typicode.com/todos/1'), fetch('https://jsonplaceholder.typicode.com/todos/1')]);
+// combinedData.then((data)=>{
+//     // return fetch('inform-customer')
+//     const promisesArray = data.map((product)=> product.json())
+//     return Promise.all(promisesArray)
+// })
+// .then((data)=>{
+//     console.log(data)
     
-    return fetch('https://jsonplaceholder.typicode.com/todos/10')
-})
-.then((data)=>{
-    return data.json();
-})
-.then((data)=>{
-    console.log(data)
-})
+//     return fetch('https://jsonplaceholder.typicode.com/todos/10')
+// })
+// .then((data)=>{
+//     return data.json();
+// })
+// .then((data)=>{
+//     console.log(data)
+// })
 
 
 // async function handleApiCall(){
@@ -241,3 +241,5 @@ combinedData.then((data)=>{
 // console.log('one')
 // console.log('one')
 // console.log('one')
+
+
