@@ -7,3 +7,14 @@ why typescript?
 we need a proper setup and installations to powerup typescript 
 
 Every ide out there supports and can validte typescript
+
+
+1. String
+2. Number
+3. Null
+4. Boolean
+5. Unknown
+6. Any
+7. Object 
+8. Array 
+9. Custom types -> 
