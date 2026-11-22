@@ -40,7 +40,7 @@ function readCertainFile(filePath){
 }
 
 const filePath = 'sendMessage.txt'
-fs.writeFile(filePath, 'sending some message ', (err) => {
+    fs.writeFile(filePath, 'sending some message ', (err) => {
     if (err) throw err
     console.log('send message file')
     readCertainFile(filePath);
