@@ -1,0 +1,4 @@
+2026-11-28 INFO Server started
+2026-11-28 ERROR Database connection failed
+2026-11-28 INFO Request received
+2026-11-28 ERROR Timeout occurred

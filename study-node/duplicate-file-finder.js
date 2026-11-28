@@ -23,6 +23,10 @@ async function checkIfFileIsSame(pathA, pathB){
     //we need to basically verify if the content on both the path is same or not
 }
 
+// streams -> chunks -> 
+// 1gb 1bg -> 
+//chunks read -> comparisions -> 
+
 const pathA = 'temp.txt'; //this will change acccordingly
 const pathB = 'temp2.txt'; //this will change accordingly
 
